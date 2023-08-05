@@ -145,7 +145,7 @@ body{
     height: 60vh;
 } 
 .small-container-1{
-   margin: 10%;
+   margin: 5%;
     width: 75%;
     display: flex;
     justify-content: space-between;
@@ -175,6 +175,94 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: 5% 0;
+}
+.industry{
+    margin: 0 20%;
+    text-align: center;
+    height: 75%;
+    width: 100%;
+}
+.industry h1{
+    margin: 10px 0;
+    font-weight: 800;
+}
+.industry p{
+    margin: 10px 0;
+    color: #b1a9a9;
+}
+.industry-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0;
+    height: 60%;
+    
+}
+.cards-1{
+    padding: 10px;
+    border: 1px solid #ece0e0;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 30%;
+    height: 350px;
+}
+.cards-1 .profile{
+    margin: 10% 0;
+    width: 100px;
+    height: 100px;
+}
+.cards-1 p{
+    margin: 5% 0;
+}
+.main-container-4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 3% 0;
+}
+.companies{
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.companies img{
+    width: 10%;
+}
+.subscribe{
+    background: linear-gradient(to right,rgb(61, 61, 245),rgb(231, 30, 141));
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 2px;
+    padding: 20px;
+    color: #fff;
+    margin: 2% 0;
+}
+.subscribe span{
+    background-color: #fff;
+    border-radius: 5px ;
+    border: none;
+}
+.subscribe span input{
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 5px ;
+    border: none;
+}
+.subscribe span button{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(78, 153, 238);
+    border-radius: 5px ;
+    border: none;
+    height: 100%;
+    cursor: pointer;
 }
 
 
